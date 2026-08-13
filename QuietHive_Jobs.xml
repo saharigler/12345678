@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>QuietHive_CovertInfect</defName>
+    <driverClass>QuietHive.JobDriver_CovertInfect</driverClass>
+    <reportString>spending time with TargetA.</reportString>
+    <checkOverrideOnDamage>true</checkOverrideOnDamage>
+    <playerInterruptible>true</playerInterruptible>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

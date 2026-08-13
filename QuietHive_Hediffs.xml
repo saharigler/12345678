@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>QuietHive_Infection</defName>
+    <label>quiet hive infection</label>
+    <description>A covert parasite has linked this pawn to a hidden hive. The host attempts to behave normally and infect isolated victims without witnesses.</description>
+    <hediffClass>QuietHive.Hediff_QuietHiveInfection</hediffClass>
+    <isBad>true</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="QuietHive.HediffCompProperties_QuietHiveMind" />
+    </comps>
+  </HediffDef>
+</Defs>
